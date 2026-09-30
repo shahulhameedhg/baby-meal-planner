@@ -1,6 +1,6 @@
 {
-  "name": "Ezdu's Baby Meal Planner",
-  "short_name": "Ezdu's Baby Meals",
+  "name": "Ezdu's Meal Planner",
+  "short_name": "Ezdu's Meals",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#fffaf3",

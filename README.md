@@ -1,10 +1,10 @@
-# Ezdu's Baby Meal Planner PWA
+# Ezdu's Meal Planner PWA
 
 A branded, installable 42-day South Indian baby meal planner.
 
 ## What's included
 - Baby photo displayed as a soft transparent/organic cutout (the original facial features are not edited).
-- Ezdu's Baby Meal Planner branding.
+- Ezdu's Meal Planner branding.
 - 42-day date-based meal schedule.
 - 10:00 AM breakfast + fruit, 1:30 PM lunch, 5:00 PM fruit meal, 8:00 PM dinner.
 - 5-day fruit and vegetable rotation.
