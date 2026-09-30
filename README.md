@@ -1,26 +1,31 @@
-# Baby Meal Planner PWA
+# Shahul's Baby Meal Planner PWA
 
-A mobile-friendly Progressive Web App for the 42-day South Indian baby solid-food restart plan.
+A branded, installable 42-day South Indian baby meal planner.
 
-## Files
-- index.html — frontend
-- styles.css — responsive/mobile styling
-- app.js — date selection and meal-plan logic
-- plan.json — 42-day meal data
-- manifest.webmanifest — PWA configuration
-- sw.js — offline caching
-- icon-192.png / icon-512.png — app icons
+## What's included
+- Baby photo displayed as a soft transparent/organic cutout (the original facial features are not edited).
+- Shahul's Baby Meal Planner branding.
+- 42-day date-based meal schedule.
+- 10:00 AM breakfast + fruit, 1:30 PM lunch, 5:00 PM fruit meal, 8:00 PM dinner.
+- 5-day fruit and vegetable rotation.
+- Previous / Today / Next navigation.
+- Print Day.
+- Offline caching and installable PWA support.
 
-## Deploy
-Upload all files in this folder to a static HTTPS host such as GitHub Pages, Netlify, Vercel, or any web server.
+## GitHub Pages
+1. Extract this ZIP.
+2. Open your `baby-meal-planner` repository.
+3. Upload **the files inside this folder** to the repository root (not the ZIP itself).
+4. Commit the changes to `main`.
+5. Go to **Settings → Pages**.
+6. Under **Build and deployment**, select **Deploy from a branch**.
+7. Select `main` and `/(root)`, then Save.
+8. Wait a few minutes, then open:
+   `https://shahulhameedhg.github.io/baby-meal-planner/`
 
-No backend or database is required.
+## After updating an existing PWA
+If an older version still appears, hard-refresh the page or close/reopen the installed app. The new service-worker cache is versioned as `v2`.
 
-## Using the app
-1. Open the site.
-2. Set the Plan Start Date.
-3. Select any date within the 42-day window.
-4. Use Previous/Next or Today.
-5. On supported browsers, use Install App to add it to the phone home screen.
-
-The selected start date and selected date are stored locally in the browser.
+## Install on phone
+- Android/Chrome: open the site, use the browser menu, then **Install app** / **Add to Home screen**.
+- iPhone/Safari: open the site, tap **Share**, then **Add to Home Screen**.

@@ -3,36 +3,48 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="theme-color" content="#4f7f5a">
-<meta name="description" content="42-day South Indian baby solid-food meal planner">
+<meta name="theme-color" content="#f28b62">
+<meta name="description" content="Shahul's 42-day South Indian baby meal planner">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="stylesheet" href="styles.css">
-<title>Baby Meal Planner</title>
+<title>Shahul's Baby Meal Planner</title>
 </head>
 <body>
 <header class="app-header">
   <div class="brand">
-    <div class="brand-icon">👶</div>
-    <div><h1>Baby Meal Planner</h1><p>42-Day South Indian Solid-Food Restart</p></div>
+    <div class="brand-photo-wrap"><img src="baby-photo.png" alt="Baby photo"></div>
+    <div><h1>Shahul's Baby Meal Planner</h1><p>42-Day South Indian Solid-Food Plan</p></div>
   </div>
   <button id="installBtn" class="secondary hidden">Install App</button>
 </header>
 
 <main>
+  <section class="hero card">
+    <div class="hero-copy">
+      <span class="eyebrow">GOOD FOOD • HAPPY BABY</span>
+      <h2>A gentle daily meal plan for your little one.</h2>
+      <p>Simple South Indian foods, a calm 5-day rotation and an easy date-based schedule.</p>
+      <div class="hero-pills"><span>🍌 Fruit rotation</span><span>🥕 Veg rotation</span><span>🍚 4 meals/day</span></div>
+    </div>
+    <div class="hero-photo">
+      <div class="paint paint-a"></div><div class="paint paint-b"></div>
+      <img src="baby-photo.png" alt="Baby photo" loading="eager">
+      <div class="sparkle s1">✦</div><div class="sparkle s2">✦</div>
+      <div class="photo-note">Happy little<br>food explorer ❤️</div>
+    </div>
+  </section>
+
   <section class="controls card">
+    <div class="section-title"><span>📅</span><div><h2>Choose a day</h2><p>Set your plan start date and view any day.</p></div></div>
     <div class="control-grid">
-      <label>Plan start date
-        <input id="startDate" type="date">
-      </label>
-      <label>Select date
-        <input id="selectedDate" type="date">
-      </label>
+      <label>Plan start date<input id="startDate" type="date"></label>
+      <label>Select date<input id="selectedDate" type="date"></label>
     </div>
     <div class="button-row">
       <button id="prevBtn" class="secondary">‹ Previous</button>
-      <button id="todayBtn" class="secondary">Today</button>
+      <button id="todayBtn" class="primary">Today</button>
       <button id="nextBtn" class="secondary">Next ›</button>
-      <button id="printBtn" class="primary">Print Day</button>
+      <button id="printBtn" class="secondary">Print Day</button>
     </div>
   </section>
 
@@ -40,46 +52,25 @@
 
   <section id="planView" class="hidden">
     <div class="day-heading">
-      <div>
-        <div id="dateText" class="date-text"></div>
-        <div id="dayNumber" class="day-number"></div>
-      </div>
-      <div class="badges">
-        <span id="fruitBadge" class="badge fruit"></span>
-        <span id="vegBadge" class="badge veg"></span>
-      </div>
+      <div><div id="dateText" class="date-text"></div><div id="dayNumber" class="day-number"></div></div>
+      <div class="badges"><span id="fruitBadge" class="badge fruit"></span><span id="vegBadge" class="badge veg"></span></div>
     </div>
 
     <div class="meal-grid">
-      <article class="meal-card breakfast">
-        <div class="meal-time">10:00 AM</div><div class="meal-title">🥣 Breakfast + Fruit</div>
-        <p id="breakfast"></p>
-      </article>
-      <article class="meal-card lunch">
-        <div class="meal-time">1:30 PM</div><div class="meal-title">🍚 Lunch</div>
-        <p id="lunch"></p>
-      </article>
-      <article class="meal-card fruitmeal">
-        <div class="meal-time">5:00 PM</div><div class="meal-title">🍌 Fruit Meal</div>
-        <p id="fruitMeal"></p>
-      </article>
-      <article class="meal-card dinner">
-        <div class="meal-time">8:00 PM</div><div class="meal-title">🍚 Dinner</div>
-        <p id="dinner"></p>
-      </article>
+      <article class="meal-card breakfast"><div class="meal-time">10:00 AM</div><div class="meal-title">🥣 Breakfast + Fruit</div><p id="breakfast"></p></article>
+      <article class="meal-card lunch"><div class="meal-time">1:30 PM</div><div class="meal-title">🍚 Lunch</div><p id="lunch"></p></article>
+      <article class="meal-card fruitmeal"><div class="meal-time">5:00 PM</div><div class="meal-title">🍌 Fruit Meal</div><p id="fruitMeal"></p></article>
+      <article class="meal-card dinner"><div class="meal-time">8:00 PM</div><div class="meal-title">🍚 Dinner</div><p id="dinner"></p></article>
     </div>
 
     <div class="card rotation">
-      <h2>Current rotation</h2>
-      <div class="rotation-grid">
-        <div><span>Fruit</span><strong id="rotationFruit"></strong></div>
-        <div><span>Vegetable</span><strong id="rotationVeg"></strong></div>
-      </div>
+      <div class="section-title compact"><span>🔄</span><div><h2>Current rotation</h2><p>Keep the same fruit and vegetable for 5 days.</p></div></div>
+      <div class="rotation-grid"><div><span>Fruit</span><strong id="rotationFruit"></strong></div><div><span>Vegetable</span><strong id="rotationVeg"></strong></div></div>
     </div>
   </section>
 
   <section class="card notes">
-    <h2>Important notes</h2>
+    <div class="section-title compact"><span>💛</span><div><h2>Important notes</h2><p>Keep portions small and follow your baby's tolerance.</p></div></div>
     <ul>
       <li>Keep the same fruit for 4–5 consecutive days before changing.</li>
       <li>Use the same vegetable at lunch and dinner for 4–5 consecutive days before changing.</li>
@@ -91,9 +82,14 @@
       <li>Do not force-feed. Start with small quantities and increase gradually according to tolerance.</li>
     </ul>
   </section>
+
+  <section class="card about">
+    <div class="about-photo"><img src="baby-photo.png" alt="Baby photo"></div>
+    <div><span class="eyebrow">MADE FOR OUR LITTLE ONE</span><h2>Shahul's Baby Meal Planner</h2><p>A personal 42-day meal-planning PWA with offline support and a simple date selector.</p><small>Designed &amp; developed by Shahul Hameed</small></div>
+  </section>
 </main>
 
-<footer>Meal planner data is stored locally in this app. No account or server is required.</footer>
+<footer>Meal planner data is stored locally on your device. No account or server is required.</footer>
 <script src="app.js"></script>
 </body>
 </html>

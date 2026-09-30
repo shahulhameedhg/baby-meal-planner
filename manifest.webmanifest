@@ -1,21 +1,23 @@
 {
-  "name": "Baby Meal Planner",
-  "short_name": "Baby Meals",
+  "name": "Shahul's Baby Meal Planner",
+  "short_name": "Shahul's Baby Meals",
   "start_url": "./",
   "display": "standalone",
-  "background_color": "#f5f7f4",
-  "theme_color": "#4f7f5a",
-  "description": "42-day South Indian baby solid-food restart meal planner",
+  "background_color": "#fffaf3",
+  "theme_color": "#f28b62",
+  "description": "Shahul's 42-day South Indian baby solid-food meal planner",
   "icons": [
     {
       "src": "icon-192.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     },
     {
       "src": "icon-512.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     }
   ]
 }
