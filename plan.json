@@ -1,0 +1,380 @@
+[
+  {
+    "day": 1,
+    "fruit": "Banana",
+    "vegetable": "Carrot",
+    "breakfast": "Cooked rava porridge + mashed banana",
+    "lunch": "Soft cooked rice + Carrot + moong dal, well cooked and mashed",
+    "fruitMeal": "Mashed banana",
+    "dinner": "Soft cooked rice + Carrot + moong dal, well cooked and mashed"
+  },
+  {
+    "day": 2,
+    "fruit": "Banana",
+    "vegetable": "Carrot",
+    "breakfast": "Cooked rava porridge + mashed banana",
+    "lunch": "Soft cooked rice + Carrot + moong dal, well cooked and mashed",
+    "fruitMeal": "Mashed banana",
+    "dinner": "Soft cooked rice + Carrot + moong dal, well cooked and mashed"
+  },
+  {
+    "day": 3,
+    "fruit": "Banana",
+    "vegetable": "Carrot",
+    "breakfast": "Cooked rava porridge + mashed banana",
+    "lunch": "Soft cooked rice + Carrot + moong dal, well cooked and mashed",
+    "fruitMeal": "Mashed banana",
+    "dinner": "Soft cooked rice + Carrot + moong dal, well cooked and mashed"
+  },
+  {
+    "day": 4,
+    "fruit": "Banana",
+    "vegetable": "Carrot",
+    "breakfast": "Cooked rava porridge + mashed banana",
+    "lunch": "Soft cooked rice + Carrot + moong dal, well cooked and mashed",
+    "fruitMeal": "Mashed banana",
+    "dinner": "Soft cooked rice + Carrot + moong dal, well cooked and mashed"
+  },
+  {
+    "day": 5,
+    "fruit": "Banana",
+    "vegetable": "Carrot",
+    "breakfast": "Cooked rava porridge + mashed banana",
+    "lunch": "Soft cooked rice + Carrot + moong dal, well cooked and mashed",
+    "fruitMeal": "Mashed banana",
+    "dinner": "Soft cooked rice + Carrot + moong dal, well cooked and mashed"
+  },
+  {
+    "day": 6,
+    "fruit": "Pear",
+    "vegetable": "Pumpkin",
+    "breakfast": "Ragi porridge + steamed/soft pear",
+    "lunch": "Soft cooked rice + Pumpkin + moong dal, well cooked and mashed",
+    "fruitMeal": "Mashed pear",
+    "dinner": "Soft cooked rice + Pumpkin + moong dal, well cooked and mashed"
+  },
+  {
+    "day": 7,
+    "fruit": "Pear",
+    "vegetable": "Pumpkin",
+    "breakfast": "Ragi porridge + steamed/soft pear",
+    "lunch": "Soft cooked rice + Pumpkin + moong dal, well cooked and mashed",
+    "fruitMeal": "Mashed pear",
+    "dinner": "Soft cooked rice + Pumpkin + moong dal, well cooked and mashed"
+  },
+  {
+    "day": 8,
+    "fruit": "Pear",
+    "vegetable": "Pumpkin",
+    "breakfast": "Ragi porridge + steamed/soft pear",
+    "lunch": "Soft cooked rice + Pumpkin + moong dal, well cooked and mashed",
+    "fruitMeal": "Mashed pear",
+    "dinner": "Soft cooked rice + Pumpkin + moong dal, well cooked and mashed"
+  },
+  {
+    "day": 9,
+    "fruit": "Pear",
+    "vegetable": "Pumpkin",
+    "breakfast": "Ragi porridge + steamed/soft pear",
+    "lunch": "Soft cooked rice + Pumpkin + moong dal, well cooked and mashed",
+    "fruitMeal": "Mashed pear",
+    "dinner": "Soft cooked rice + Pumpkin + moong dal, well cooked and mashed"
+  },
+  {
+    "day": 10,
+    "fruit": "Pear",
+    "vegetable": "Pumpkin",
+    "breakfast": "Ragi porridge + steamed/soft pear",
+    "lunch": "Soft cooked rice + Pumpkin + moong dal, well cooked and mashed",
+    "fruitMeal": "Mashed pear",
+    "dinner": "Soft cooked rice + Pumpkin + moong dal, well cooked and mashed"
+  },
+  {
+    "day": 11,
+    "fruit": "Apple",
+    "vegetable": "Bottle gourd",
+    "breakfast": "Cooked rava porridge + cooked/steamed apple",
+    "lunch": "Soft cooked rice + Bottle gourd + moong dal, well cooked and mashed",
+    "fruitMeal": "Mashed apple",
+    "dinner": "Soft cooked rice + Bottle gourd + moong dal, well cooked and mashed"
+  },
+  {
+    "day": 12,
+    "fruit": "Apple",
+    "vegetable": "Bottle gourd",
+    "breakfast": "Cooked rava porridge + cooked/steamed apple",
+    "lunch": "Soft cooked rice + Bottle gourd + moong dal, well cooked and mashed",
+    "fruitMeal": "Mashed apple",
+    "dinner": "Soft cooked rice + Bottle gourd + moong dal, well cooked and mashed"
+  },
+  {
+    "day": 13,
+    "fruit": "Apple",
+    "vegetable": "Bottle gourd",
+    "breakfast": "Cooked rava porridge + cooked/steamed apple",
+    "lunch": "Soft cooked rice + Bottle gourd + moong dal, well cooked and mashed",
+    "fruitMeal": "Mashed apple",
+    "dinner": "Soft cooked rice + Bottle gourd + moong dal, well cooked and mashed"
+  },
+  {
+    "day": 14,
+    "fruit": "Apple",
+    "vegetable": "Bottle gourd",
+    "breakfast": "Cooked rava porridge + cooked/steamed apple",
+    "lunch": "Soft cooked rice + Bottle gourd + moong dal, well cooked and mashed",
+    "fruitMeal": "Mashed apple",
+    "dinner": "Soft cooked rice + Bottle gourd + moong dal, well cooked and mashed"
+  },
+  {
+    "day": 15,
+    "fruit": "Apple",
+    "vegetable": "Bottle gourd",
+    "breakfast": "Cooked rava porridge + cooked/steamed apple",
+    "lunch": "Soft cooked rice + Bottle gourd + moong dal, well cooked and mashed",
+    "fruitMeal": "Mashed apple",
+    "dinner": "Soft cooked rice + Bottle gourd + moong dal, well cooked and mashed"
+  },
+  {
+    "day": 16,
+    "fruit": "Papaya",
+    "vegetable": "Sweet potato",
+    "breakfast": "Soft idli mashed with warm water + ripe papaya",
+    "lunch": "Soft cooked rice + Sweet potato + moong dal, well cooked and mashed",
+    "fruitMeal": "Mashed papaya",
+    "dinner": "Soft cooked rice + Sweet potato + moong dal, well cooked and mashed"
+  },
+  {
+    "day": 17,
+    "fruit": "Papaya",
+    "vegetable": "Sweet potato",
+    "breakfast": "Soft idli mashed with warm water + ripe papaya",
+    "lunch": "Soft cooked rice + Sweet potato + moong dal, well cooked and mashed",
+    "fruitMeal": "Mashed papaya",
+    "dinner": "Soft cooked rice + Sweet potato + moong dal, well cooked and mashed"
+  },
+  {
+    "day": 18,
+    "fruit": "Papaya",
+    "vegetable": "Sweet potato",
+    "breakfast": "Soft idli mashed with warm water + ripe papaya",
+    "lunch": "Soft cooked rice + Sweet potato + moong dal, well cooked and mashed",
+    "fruitMeal": "Mashed papaya",
+    "dinner": "Soft cooked rice + Sweet potato + moong dal, well cooked and mashed"
+  },
+  {
+    "day": 19,
+    "fruit": "Papaya",
+    "vegetable": "Sweet potato",
+    "breakfast": "Soft idli mashed with warm water + ripe papaya",
+    "lunch": "Soft cooked rice + Sweet potato + moong dal, well cooked and mashed",
+    "fruitMeal": "Mashed papaya",
+    "dinner": "Soft cooked rice + Sweet potato + moong dal, well cooked and mashed"
+  },
+  {
+    "day": 20,
+    "fruit": "Papaya",
+    "vegetable": "Sweet potato",
+    "breakfast": "Soft idli mashed with warm water + ripe papaya",
+    "lunch": "Soft cooked rice + Sweet potato + moong dal, well cooked and mashed",
+    "fruitMeal": "Mashed papaya",
+    "dinner": "Soft cooked rice + Sweet potato + moong dal, well cooked and mashed"
+  },
+  {
+    "day": 21,
+    "fruit": "Avocado",
+    "vegetable": "Green beans",
+    "breakfast": "Ragi porridge + mashed avocado",
+    "lunch": "Soft cooked rice + Green beans + moong dal, well cooked and mashed",
+    "fruitMeal": "Mashed avocado",
+    "dinner": "Soft cooked rice + Green beans + moong dal, well cooked and mashed"
+  },
+  {
+    "day": 22,
+    "fruit": "Avocado",
+    "vegetable": "Green beans",
+    "breakfast": "Ragi porridge + mashed avocado",
+    "lunch": "Soft cooked rice + Green beans + moong dal, well cooked and mashed",
+    "fruitMeal": "Mashed avocado",
+    "dinner": "Soft cooked rice + Green beans + moong dal, well cooked and mashed"
+  },
+  {
+    "day": 23,
+    "fruit": "Avocado",
+    "vegetable": "Green beans",
+    "breakfast": "Ragi porridge + mashed avocado",
+    "lunch": "Soft cooked rice + Green beans + moong dal, well cooked and mashed",
+    "fruitMeal": "Mashed avocado",
+    "dinner": "Soft cooked rice + Green beans + moong dal, well cooked and mashed"
+  },
+  {
+    "day": 24,
+    "fruit": "Avocado",
+    "vegetable": "Green beans",
+    "breakfast": "Ragi porridge + mashed avocado",
+    "lunch": "Soft cooked rice + Green beans + moong dal, well cooked and mashed",
+    "fruitMeal": "Mashed avocado",
+    "dinner": "Soft cooked rice + Green beans + moong dal, well cooked and mashed"
+  },
+  {
+    "day": 25,
+    "fruit": "Avocado",
+    "vegetable": "Green beans",
+    "breakfast": "Ragi porridge + mashed avocado",
+    "lunch": "Soft cooked rice + Green beans + moong dal, well cooked and mashed",
+    "fruitMeal": "Mashed avocado",
+    "dinner": "Soft cooked rice + Green beans + moong dal, well cooked and mashed"
+  },
+  {
+    "day": 26,
+    "fruit": "Banana",
+    "vegetable": "Ash gourd",
+    "breakfast": "Cooked rava porridge + mashed banana",
+    "lunch": "Soft cooked rice + Ash gourd + moong dal, well cooked and mashed",
+    "fruitMeal": "Mashed banana",
+    "dinner": "Soft cooked rice + Ash gourd + moong dal, well cooked and mashed"
+  },
+  {
+    "day": 27,
+    "fruit": "Banana",
+    "vegetable": "Ash gourd",
+    "breakfast": "Cooked rava porridge + mashed banana",
+    "lunch": "Soft cooked rice + Ash gourd + moong dal, well cooked and mashed",
+    "fruitMeal": "Mashed banana",
+    "dinner": "Soft cooked rice + Ash gourd + moong dal, well cooked and mashed"
+  },
+  {
+    "day": 28,
+    "fruit": "Banana",
+    "vegetable": "Ash gourd",
+    "breakfast": "Cooked rava porridge + mashed banana",
+    "lunch": "Soft cooked rice + Ash gourd + moong dal, well cooked and mashed",
+    "fruitMeal": "Mashed banana",
+    "dinner": "Soft cooked rice + Ash gourd + moong dal, well cooked and mashed"
+  },
+  {
+    "day": 29,
+    "fruit": "Banana",
+    "vegetable": "Ash gourd",
+    "breakfast": "Cooked rava porridge + mashed banana",
+    "lunch": "Soft cooked rice + Ash gourd + moong dal, well cooked and mashed",
+    "fruitMeal": "Mashed banana",
+    "dinner": "Soft cooked rice + Ash gourd + moong dal, well cooked and mashed"
+  },
+  {
+    "day": 30,
+    "fruit": "Banana",
+    "vegetable": "Ash gourd",
+    "breakfast": "Cooked rava porridge + mashed banana",
+    "lunch": "Soft cooked rice + Ash gourd + moong dal, well cooked and mashed",
+    "fruitMeal": "Mashed banana",
+    "dinner": "Soft cooked rice + Ash gourd + moong dal, well cooked and mashed"
+  },
+  {
+    "day": 31,
+    "fruit": "Pear",
+    "vegetable": "Chow chow",
+    "breakfast": "Ragi porridge + steamed/soft pear",
+    "lunch": "Soft cooked rice + Chow chow + moong dal, well cooked and mashed",
+    "fruitMeal": "Mashed pear",
+    "dinner": "Soft cooked rice + Chow chow + moong dal, well cooked and mashed"
+  },
+  {
+    "day": 32,
+    "fruit": "Pear",
+    "vegetable": "Chow chow",
+    "breakfast": "Ragi porridge + steamed/soft pear",
+    "lunch": "Soft cooked rice + Chow chow + moong dal, well cooked and mashed",
+    "fruitMeal": "Mashed pear",
+    "dinner": "Soft cooked rice + Chow chow + moong dal, well cooked and mashed"
+  },
+  {
+    "day": 33,
+    "fruit": "Pear",
+    "vegetable": "Chow chow",
+    "breakfast": "Ragi porridge + steamed/soft pear",
+    "lunch": "Soft cooked rice + Chow chow + moong dal, well cooked and mashed",
+    "fruitMeal": "Mashed pear",
+    "dinner": "Soft cooked rice + Chow chow + moong dal, well cooked and mashed"
+  },
+  {
+    "day": 34,
+    "fruit": "Pear",
+    "vegetable": "Chow chow",
+    "breakfast": "Ragi porridge + steamed/soft pear",
+    "lunch": "Soft cooked rice + Chow chow + moong dal, well cooked and mashed",
+    "fruitMeal": "Mashed pear",
+    "dinner": "Soft cooked rice + Chow chow + moong dal, well cooked and mashed"
+  },
+  {
+    "day": 35,
+    "fruit": "Pear",
+    "vegetable": "Chow chow",
+    "breakfast": "Ragi porridge + steamed/soft pear",
+    "lunch": "Soft cooked rice + Chow chow + moong dal, well cooked and mashed",
+    "fruitMeal": "Mashed pear",
+    "dinner": "Soft cooked rice + Chow chow + moong dal, well cooked and mashed"
+  },
+  {
+    "day": 36,
+    "fruit": "Apple",
+    "vegetable": "Drumstick",
+    "breakfast": "Cooked rava porridge + cooked/steamed apple",
+    "lunch": "Soft cooked rice + Drumstick + moong dal, well cooked and mashed",
+    "fruitMeal": "Mashed apple",
+    "dinner": "Soft cooked rice + Drumstick + moong dal, well cooked and mashed"
+  },
+  {
+    "day": 37,
+    "fruit": "Apple",
+    "vegetable": "Drumstick",
+    "breakfast": "Cooked rava porridge + cooked/steamed apple",
+    "lunch": "Soft cooked rice + Drumstick + moong dal, well cooked and mashed",
+    "fruitMeal": "Mashed apple",
+    "dinner": "Soft cooked rice + Drumstick + moong dal, well cooked and mashed"
+  },
+  {
+    "day": 38,
+    "fruit": "Apple",
+    "vegetable": "Drumstick",
+    "breakfast": "Cooked rava porridge + cooked/steamed apple",
+    "lunch": "Soft cooked rice + Drumstick + moong dal, well cooked and mashed",
+    "fruitMeal": "Mashed apple",
+    "dinner": "Soft cooked rice + Drumstick + moong dal, well cooked and mashed"
+  },
+  {
+    "day": 39,
+    "fruit": "Apple",
+    "vegetable": "Drumstick",
+    "breakfast": "Cooked rava porridge + cooked/steamed apple",
+    "lunch": "Soft cooked rice + Drumstick + moong dal, well cooked and mashed",
+    "fruitMeal": "Mashed apple",
+    "dinner": "Soft cooked rice + Drumstick + moong dal, well cooked and mashed"
+  },
+  {
+    "day": 40,
+    "fruit": "Apple",
+    "vegetable": "Drumstick",
+    "breakfast": "Cooked rava porridge + cooked/steamed apple",
+    "lunch": "Soft cooked rice + Drumstick + moong dal, well cooked and mashed",
+    "fruitMeal": "Mashed apple",
+    "dinner": "Soft cooked rice + Drumstick + moong dal, well cooked and mashed"
+  },
+  {
+    "day": 41,
+    "fruit": "Papaya",
+    "vegetable": "Carrot",
+    "breakfast": "Soft idli mashed with warm water + ripe papaya",
+    "lunch": "Soft cooked rice + Carrot + moong dal, well cooked and mashed",
+    "fruitMeal": "Mashed papaya",
+    "dinner": "Soft cooked rice + Carrot + moong dal, well cooked and mashed"
+  },
+  {
+    "day": 42,
+    "fruit": "Papaya",
+    "vegetable": "Carrot",
+    "breakfast": "Soft idli mashed with warm water + ripe papaya",
+    "lunch": "Soft cooked rice + Carrot + moong dal, well cooked and mashed",
+    "fruitMeal": "Mashed papaya",
+    "dinner": "Soft cooked rice + Carrot + moong dal, well cooked and mashed"
+  }
+]

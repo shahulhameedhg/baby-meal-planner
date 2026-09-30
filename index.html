@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#4f7f5a">
+<meta name="description" content="42-day South Indian baby solid-food meal planner">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="stylesheet" href="styles.css">
+<title>Baby Meal Planner</title>
+</head>
+<body>
+<header class="app-header">
+  <div class="brand">
+    <div class="brand-icon">👶</div>
+    <div><h1>Baby Meal Planner</h1><p>42-Day South Indian Solid-Food Restart</p></div>
+  </div>
+  <button id="installBtn" class="secondary hidden">Install App</button>
+</header>
+
+<main>
+  <section class="controls card">
+    <div class="control-grid">
+      <label>Plan start date
+        <input id="startDate" type="date">
+      </label>
+      <label>Select date
+        <input id="selectedDate" type="date">
+      </label>
+    </div>
+    <div class="button-row">
+      <button id="prevBtn" class="secondary">‹ Previous</button>
+      <button id="todayBtn" class="secondary">Today</button>
+      <button id="nextBtn" class="secondary">Next ›</button>
+      <button id="printBtn" class="primary">Print Day</button>
+    </div>
+  </section>
+
+  <section id="outOfRange" class="notice hidden"></section>
+
+  <section id="planView" class="hidden">
+    <div class="day-heading">
+      <div>
+        <div id="dateText" class="date-text"></div>
+        <div id="dayNumber" class="day-number"></div>
+      </div>
+      <div class="badges">
+        <span id="fruitBadge" class="badge fruit"></span>
+        <span id="vegBadge" class="badge veg"></span>
+      </div>
+    </div>
+
+    <div class="meal-grid">
+      <article class="meal-card breakfast">
+        <div class="meal-time">10:00 AM</div><div class="meal-title">🥣 Breakfast + Fruit</div>
+        <p id="breakfast"></p>
+      </article>
+      <article class="meal-card lunch">
+        <div class="meal-time">1:30 PM</div><div class="meal-title">🍚 Lunch</div>
+        <p id="lunch"></p>
+      </article>
+      <article class="meal-card fruitmeal">
+        <div class="meal-time">5:00 PM</div><div class="meal-title">🍌 Fruit Meal</div>
+        <p id="fruitMeal"></p>
+      </article>
+      <article class="meal-card dinner">
+        <div class="meal-time">8:00 PM</div><div class="meal-title">🍚 Dinner</div>
+        <p id="dinner"></p>
+      </article>
+    </div>
+
+    <div class="card rotation">
+      <h2>Current rotation</h2>
+      <div class="rotation-grid">
+        <div><span>Fruit</span><strong id="rotationFruit"></strong></div>
+        <div><span>Vegetable</span><strong id="rotationVeg"></strong></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="card notes">
+    <h2>Important notes</h2>
+    <ul>
+      <li>Keep the same fruit for 4–5 consecutive days before changing.</li>
+      <li>Use the same vegetable at lunch and dinner for 4–5 consecutive days before changing.</li>
+      <li>Breakfast uses cooked rava, ragi or soft idli + the day's fruit, rather than another rice meal.</li>
+      <li>Lunch and dinner are soft cooked rice + one vegetable + moong dal.</li>
+      <li>Banana, papaya and avocado can be served ripe and mashed. Steam apple and pear initially.</li>
+      <li>No mango or other seasonal fruit is included in this plan.</li>
+      <li>Continue breast milk/formula according to the baby's usual feeding pattern.</li>
+      <li>Do not force-feed. Start with small quantities and increase gradually according to tolerance.</li>
+    </ul>
+  </section>
+</main>
+
+<footer>Meal planner data is stored locally in this app. No account or server is required.</footer>
+<script src="app.js"></script>
+</body>
+</html>
