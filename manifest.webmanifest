@@ -1,11 +1,11 @@
 {
-  "name": "Shahul's Baby Meal Planner",
-  "short_name": "Shahul's Baby Meals",
+  "name": "Ezdu's Baby Meal Planner",
+  "short_name": "Ezdu's Baby Meals",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#fffaf3",
   "theme_color": "#f28b62",
-  "description": "Shahul's 42-day South Indian baby solid-food meal planner",
+  "description": "Ezdu's 42-day South Indian baby solid-food meal planner",
   "icons": [
     {
       "src": "icon-192.png",
